@@ -178,6 +178,7 @@ module.exports = {
 		],
 		"no-nested-ternary": "error",
 		"id-denylist": [
+			"error",
 			"process",
 			"module"
 		]
