@@ -180,6 +180,6 @@ module.exports = {
 		"id-denylist": [
 			"process",
 			"module"
-		],
+		]
 	}
 }
