@@ -127,7 +127,7 @@ module.exports = {
 			"error",
 			"event",
 			"name"
-		],
+		]
 		"no-restricted-imports": "error",
 		"no-restricted-modules": "error",
 		"no-restricted-syntax": "error",
@@ -176,7 +176,10 @@ module.exports = {
 			"error",
 			"never"
 		],
-		"no-nested-ternary": "error"
+		"no-nested-ternary": "error",
+		"id-denylist": [
+			"process",
+			"module"
+		],
 	}
 }
-
