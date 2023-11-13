@@ -9,8 +9,7 @@
 	"extends": [
 		"eslint:recommended"
 	],
-	"plugins": [
-  ],
+	"plugins": [],
 	"rules": {
 		"no-undef": [
 			"error",
@@ -26,10 +25,10 @@
 				"SwitchCase": 1
 			}
 		],
-    "strict": [
-      "error",
-      "safe"
-    ],
+		"strict": [
+			"error",
+			"safe"
+		],
 		"quotes": [
 			"error",
 			"single"
@@ -80,7 +79,7 @@
 		"jsx-quotes": "error",
 		"keyword-spacing": "error",
 		"key-spacing": [
-      "error",
+			"error",
 			{
 				"beforeColon": false
 			}
@@ -152,8 +151,11 @@
 		],
 		"space-before-blocks": "error",
 		"space-before-function-paren": [
-			"error",
-			"never"
+			"warn",
+			{
+				"anonymous": "never",
+				"named": "never"
+			}
 		],
 		"space-in-parens": [
 			"error",
