@@ -178,11 +178,6 @@
 			"error",
 			"never"
 		],
-		"no-nested-ternary": "error",
-		"id-denylist": [
-			"error",
-			"process",
-			"module"
-		]
+		"no-nested-ternary": "error"
 	}
 }
