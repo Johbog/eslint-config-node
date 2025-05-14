@@ -112,6 +112,7 @@
 				"string": false
 			}
 		],
+		"no-implied-eval": "error",
 		"no-inner-declarations": [
 			"error",
 			"functions"
