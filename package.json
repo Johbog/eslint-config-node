@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/Johbog/eslint-config-node#readme",
   "dependencies": {
-    "eslint": "^8.46.0"
+    "eslint": "^9.26.0"
   }
 }
