@@ -180,5 +180,13 @@
 			"never"
 		],
 		"no-nested-ternary": "error"
-	}
+	},
+	"overrides": [
+    {
+      "files": ["*.mjs"],
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
+  ]
 }
