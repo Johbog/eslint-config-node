@@ -17,6 +17,14 @@
 				"typeof": true
 			}
 		],
+		"no-use-before-define": [
+			"error",
+			{
+				"variables": true,
+				"functions": true,
+				"classes": true
+			}
+		],
 		"require-atomic-updates": "off",
 		"indent": [
 			"error",
@@ -182,11 +190,13 @@
 		"no-nested-ternary": "error"
 	},
 	"overrides": [
-    {
-      "files": ["*.mjs"],
-      "parserOptions": {
-        "sourceType": "module"
-      }
-    }
-  ]
+		{
+			"files": [
+				"*.mjs"
+			],
+			"parserOptions": {
+				"sourceType": "module"
+			}
+		}
+	]
 }
